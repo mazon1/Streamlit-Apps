@@ -2,8 +2,3 @@ pandas
 plotly
 streamlit
 seaborn
-uvicorn
-fastapi
-numpy
-pydantic 
-pickle
