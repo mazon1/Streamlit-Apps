@@ -1,5 +1,5 @@
-accelerate==0.15.0
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+accelerate
+alabaster 
 altair==4.2.0
 anaconda-client @ file:///tmp/build/80754af9/anaconda-client_1635342557008/work
 anaconda-navigator==2.1.1
@@ -276,7 +276,7 @@ stack-data==0.6.2
 starlette==0.22.0
 statsmodels==0.13.5
 stopit==1.1.2
-streamlit==1.11.1
+streamlit
 sympy @ file:///tmp/build/80754af9/sympy_1635237064765/work
 tables @ file:///tmp/build/80754af9/pytables_1607975397488/work
 tangled-up-in-unicode==0.2.0
