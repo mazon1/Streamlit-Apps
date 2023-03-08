@@ -1,6 +1,6 @@
 pip
 accelerate==0.15.0
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+alabaster 
 altair==4.2.0
 anaconda-client @ file:///tmp/build/80754af9/anaconda-client_1635342557008/work
 anaconda-navigator==2.1.1
