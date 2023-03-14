@@ -1,4 +1,4 @@
-<p align = "center" draggable=”false” ><img src="[https://avatars.githubusercontent.com/u/25625292?s=40&v=4](https://scontent.fyxd1-1.fna.fbcdn.net/v/t1.6435-9/188953200_10160827277502564_2591119927589681735_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=pmSXoRQiJe4AX_07wga&_nc_ht=scontent.fyxd1-1.fna&oh=00_AfBYGzW-3bPBaH1BtdHAny2Dmhgp_8zWPlQRzdokSZrrmQ&oe=643848C3)" 
+<p align = "center" draggable=”false” ><img src="https://scontent.fyxd1-1.fna.fbcdn.net/v/t1.6435-9/188953200_10160827277502564_2591119927589681735_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=pmSXoRQiJe4AX_07wga&_nc_ht=scontent.fyxd1-1.fna&oh=00_AfBYGzW-3bPBaH1BtdHAny2Dmhgp_8zWPlQRzdokSZrrmQ&oe=643848C3" 
      width="200px"
      height="auto"/>
 </p>
