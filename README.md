@@ -31,7 +31,7 @@ Any additional dependencies specific to the application
 
 To run any of the applications in this repository, please follow these general steps:
 
-Clone the repository to your local machine: git clone https://github.com/your-username/machine-learning-apps.git
+Clone the repository to your local machine: git clone https://github.com/mazon1/Apps.git
 Navigate to the directory of the application you want to run: cd application1
 Install the required packages: pip install -r requirements.txt
 Follow the specific instructions in the application's README.md file to run and use the application.
