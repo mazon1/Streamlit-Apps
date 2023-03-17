@@ -25,7 +25,7 @@ Each application has its own requirements, which can be found in their respectiv
 
 Python 3.8
 Required Python packages, as listed in the requirements.txt file in each application directory
-Any additional dependencies specific to the application
+Any additional dependencies specific to the application.
 
 # Installation
 
