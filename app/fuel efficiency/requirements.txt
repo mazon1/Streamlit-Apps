@@ -1,0 +1,11 @@
+ipython
+matplotlib
+numpy
+pandas
+plotly
+scikit_learn
+seaborn
+shap
+streamlit
+tensorflow
+tpot
