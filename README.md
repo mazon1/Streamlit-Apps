@@ -15,9 +15,12 @@ Welcome to my Apps repository. This repository contains different machine learni
 
 # Applications List
 
-## Application 1: 
+## Uplift Model
+
 This application is an Uplift Model. Uplift modeling is used to identify the customers who are most likely to be influenced by the effect of an advertising campaign and to quantify the size of that impact. It has been deployed to Streamlit platform and can be accessed at [Uplift Demo App](https://mazon1-apps-appuplift-repmp3.streamlit.app/)
 
+## Iris Model
+This application is based on the famous Iris dataset [Iris App](https://mazon1-iris-app-wcsd77.streamlit.app/)
 
 
 # Requirements
