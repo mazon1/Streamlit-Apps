@@ -15,6 +15,15 @@ Welcome to my Apps repository. This repository contains different machine learni
 
 # Applications List
 
+## Text Generation App
+
+This text generation app deployed on Hugging Face using FastAPI can be used to generate text content based on a specific input or prompt. The app uses a pre-trained language model, such as GPT-2 or GPT-3, to generate text that is similar in style and tone to the input.
+
+Users can interact with the app using this [link](https://huggingface.co/spaces/nateraw/text-generation) .
+[Click on "Try it Out"](https://huggingface.co/spaces/nateraw/text-generation) .The app generates the text and displays new content based on the input text back to the user.
+
+One potential use case for this app is for content creation, where a user might use the app to generate ideas for articles, social media posts, or other types of written content.
+
 ## Uplift Model
 
 This application is an Uplift Model. Uplift modeling is used to identify the customers who are most likely to be influenced by the effect of an advertising campaign and to quantify the size of that impact. It has been deployed to Streamlit platform and can be accessed at [Uplift Demo App](https://mazon1-apps-appuplift-repmp3.streamlit.app/)
