@@ -51,12 +51,15 @@ def eda():
 
     # Correlation Plot
     st.header('Correlation Matrix')
-    corr = data.select_dtypes(include=['float64', 'int']).corr()
+    # Select only numeric columns and drop rows with missing values
+    numeric_data = data.select_dtypes(include=['float64', 'int']).dropna()
+    corr = numeric_data.corr()
     mask = np.zeros_like(corr, dtype=np.bool)
     mask[np.triu_indices_from(mask)] = True
     plt.figure(figsize=(20, 10))
     sns.heatmap(corr, mask=mask, annot=True, center=0, cmap='coolwarm')
     st.pyplot(plt.show())
+
 
 # Run Models Page
 from sklearn.model_selection import train_test_split
