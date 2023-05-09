@@ -49,10 +49,14 @@ def eda():
     sns.scatterplot(data=data, x="Unit price", y="Total", hue="Branch", ax=ax)
     st.pyplot(fig)
 
-    st.write("Heatmap of correlation coefficients:")
-    fig, ax = plt.subplots()
-    sns.heatmap(data.corr(), annot=True, ax=ax)
-    st.pyplot(fig)
+    # Correlation Plot
+    st.header('Correlation Matrix')
+    corr = data.select_dtypes(include=['float64', 'int']).corr()
+    mask = np.zeros_like(corr, dtype=np.bool)
+    mask[np.triu_indices_from(mask)] = True
+    plt.figure(figsize=(20, 10))
+    sns.heatmap(corr, mask=mask, annot=True, center=0, cmap='coolwarm')
+    st.pyplot(plt.show())
 
 # Run Models Page
 from sklearn.model_selection import train_test_split
