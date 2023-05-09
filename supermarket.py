@@ -9,7 +9,15 @@ data = pd.read_csv("supermarket_sales.csv")
 # Dashboard Page
 def dashboard():
     st.title("Dashboard")
-    st.write("This page describes the dataset.")
+    st.write(''' The Supermarket Sales Prediction App is a machine learning application that allows users to explore and analyze the Supermarket Sales dataset. The app is divided into three main sections:
+
+Dashboard: Provides a general overview of the dataset, including information such as the number of observations, mean and median values of key variables, and a breakdown of the product line categories.
+
+EDA: Allows users to explore the relationships between different variables and how they impact sales. Users can select specific variables of interest and generate visualizations, such as scatterplots and heatmaps, to better understand these relationships.
+
+Run Models: Enables users to build and test machine learning models to predict supermarket sales. Users can select the type of model they want to run (e.g. regression or classification), the input and output variables, and view the results of the model on a variety of metrics, such as R-squared and mean squared error.
+
+Overall, the Supermarket Sales Prediction App provides a powerful tool for data exploration and machine learning modeling, allowing users to gain insights and make predictions about supermarket sales based on a variety of factors.''')
     
     # Display some general information about the dataset
     st.write("Number of rows:", len(data))
