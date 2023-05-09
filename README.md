@@ -28,6 +28,13 @@ One potential use case for this app is for content creation, where a user might 
 
 This application is an Uplift Model. Uplift modeling is used to identify the customers who are most likely to be influenced by the effect of an advertising campaign and to quantify the size of that impact. It has been deployed to Streamlit platform and can be accessed at [Uplift Demo App](https://mazon1-apps-appuplift-repmp3.streamlit.app/)
 
+## SuperMarket Sales EDA
+This app shows a data analyis of the [Supermarket Sales Dataset](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales).
+
+Objective
+The objective of this project is to perform an exploratory data analysis on the dataset and build machine learning models to predict the total sales and customer ratings.
+[Link to Supermarket App](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
+
 ## Iris Model
 This application is based on the famous Iris dataset [Iris App](https://mazon1-iris-app-wcsd77.streamlit.app/)
 
