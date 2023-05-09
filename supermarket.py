@@ -59,6 +59,17 @@ def eda():
     plt.figure(figsize=(20, 10))
     sns.heatmap(corr, mask=mask, annot=True, center=0, cmap='coolwarm')
     st.pyplot(plt.show())
+    
+    # Find pairs of variables with correlation greater than 0.8
+    high_corr = corr.mask(mask).abs() > 0.8
+
+    # Print the pairs
+    for i in high_corr.columns:
+        for j in high_corr.index:
+            if high_corr.loc[j, i]:
+                st.write(f"The variables '{i}' and '{j}' have a correlation greater than 0.8.")
+
+
 
 
 # Run Models Page
