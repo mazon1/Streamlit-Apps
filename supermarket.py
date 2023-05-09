@@ -54,7 +54,7 @@ def eda():
     # Select only numeric columns and drop rows with missing values
     numeric_data = data.select_dtypes(include=['float64', 'int']).dropna()
     corr = numeric_data.corr()
-    mask = np.zeros_like(corr, dtype=np.bool)
+    mask = np.zeros_like(corr, dtype=bool)
     mask[np.triu_indices_from(mask)] = True
     plt.figure(figsize=(20, 10))
     sns.heatmap(corr, mask=mask, annot=True, center=0, cmap='coolwarm')
