@@ -33,7 +33,7 @@ This app shows a data analyis of the [Supermarket Sales Dataset](https://www.kag
 
 Objective
 The objective of this project is to perform an exploratory data analysis on the dataset and build machine learning models to predict the total sales and customer ratings.
-[Link to Supermarket App](https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales)
+[Link to Supermarket App](https://mazon1-streamlit-apps-supermarket-lhmjbx.streamlit.app/)
 
 ## Iris Model
 This application is based on the famous Iris dataset [Iris App](https://mazon1-iris-app-wcsd77.streamlit.app/)
